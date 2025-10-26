@@ -1,0 +1,29 @@
+{
+  "name": "alice-scans-bot",
+  "version": "1.0.0",
+  "description": "Alice Scans Discord Bot – Manga Çeviri Sunucuları için otomatik setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "manga",
+    "scanlation",
+    "discord.js"
+  ],
+  "author": "AliceScans",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.16.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
